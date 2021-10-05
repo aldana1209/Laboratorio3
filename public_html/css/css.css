@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+#contenido{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    top:50px;
+    left: 100px;
+    align-content: center;
+    border-radius: 20px 20px 20px 75px;
+    -moz-border-radius: 20px 20px 20px 75px;
+    -webkit-border-radius: 20px 20px 20px 75px;
+    border: 10px solid #7d787d;
+}
+#caja1{
+    width: 50px;
+    height: 60px;
+    padding: 20px;
+    position: absolute;
+    top:360px;
+    left: 100px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 8px solid #ab0d45;
+    background-color: #ffcbbf;
+}
+
+#caja2{
+    width: 40px;
+    height: 80px;
+    padding: 20px;
+    position: absolute;
+    top:340px;
+    left: 310px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 8px solid #2a36a6;
+    background-color: #6f83de;
+}
+#caja3{
+    width: 60px;
+    height: 105px;
+    padding: 20px;
+    position: absolute;
+    top:315px;
+    left: 200px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 8px solid #2aa628;
+    background-color: #74de6d; 
+}
+#persona{
+    width: 60px;
+    height: 60px;
+    padding: 80px;
+    position: absolute;
+    top:100px;
+    left: 120px;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_18-256.png) 
+}
+#copa{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    position: absolute;
+    top:90px;
+    left: 100px;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/awards-trophies/512/medal_award_trophy_premium_win_first_place_1-128.png)
+}
+.bounceInd{
+    animation-name: mianimacion;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    position: relative;
+}
+
+@keyframes mianimacion {
+    0%{ top:70px;left: 100px;}
+    50%{top:100px;left: 100px;}
+    100%{top:150px;left: 100px;}
+    
+}
+
